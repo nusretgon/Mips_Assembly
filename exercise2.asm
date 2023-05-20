@@ -1,3 +1,7 @@
+# if(a[i] > 10) 
+# 	i=i+1
+#
+
 .data 
 q4:		.asciiz "first i=1 if(a[i]>10) i=i+1 last i= "
 a:		.word 12, 2, 3, 4, 5, 6, 7, 8, 9
