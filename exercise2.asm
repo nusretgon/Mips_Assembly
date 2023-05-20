@@ -1,6 +1,6 @@
 .data 
-q4:			.asciiz "first i=1 if(a[i]>10) i=i+1 last i= "
-a:			.word 12, 2, 3, 4, 5, 6, 7, 8, 9
+q4:		.asciiz "first i=1 if(a[i]>10) i=i+1 last i= "
+a:		.word 12, 2, 3, 4, 5, 6, 7, 8, 9
 index:		.word 1
 
 .text
@@ -26,6 +26,10 @@ END:
 
 	li $v0, 1
 	move $a0, $s1
-	syscall					
+	syscall		
+	
+	li $v0, 10				# terminate the program
+	syscall
+	
 	
 
