@@ -32,4 +32,7 @@ main:
 	move $a0, $a1
 	syscall	
 	
+	li $v0, 10				# terminate the program
+	syscall
+	
 
