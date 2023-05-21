@@ -1,3 +1,5 @@
+# a[i] = a[i] + a[i+1]
+
 .data
 a:		.word 12, 2, 3, 4, 5, 6, 7, 8, 9
 text:		.asciiz "a[index]=a[index](2)+a[index+1](3)="
